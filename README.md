@@ -1,2 +1,2 @@
 # Inkscape Placeholder
-Add placholder images to inkscape
+Add placeholder images to inkscape
