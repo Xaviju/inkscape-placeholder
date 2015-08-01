@@ -1,5 +1,5 @@
 ## Inkscape Placeholder
-Embed image placeholders with custom height and width to Inkscape (currently only from [unsplash](https://unsplash.com))
+Embed image placeholders with custom height and width into Inkscape (currently only from [unsplash](https://unsplash.com))
 
 ## How it works
 1. Find the extension under the _extensions_ menu in the top bar  
