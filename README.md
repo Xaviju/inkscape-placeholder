@@ -13,7 +13,8 @@ Embed image placeholders with custom height and width to Inkscape (currently onl
 
 ## Motivation
 
-It is very useful to add image placeholders to their designs to see how the design could look and how image fits in space. It is also useful to make clients see a temporary image that could help them understand better how a design will look in the future.
+For designers, it is very useful to add image placeholders to their designs to see how the design could look and how image fits in space.  
+It is also useful to help clients see a temporary image that could help them understand better how a design will look in the future.
 
 ## Installation
 
