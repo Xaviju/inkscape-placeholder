@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 import base64
-import sys
 import urllib2
 import inkex
 
