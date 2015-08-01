@@ -4,7 +4,6 @@ import base64
 import sys
 import urllib2
 import inkex
-from lxml import etree
 
 
 class UnsplashPlaceholder(inkex.Effect):
