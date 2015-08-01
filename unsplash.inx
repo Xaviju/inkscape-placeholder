@@ -5,8 +5,8 @@
 
     <dependency type="executable" location="extensions">unsplash.py</dependency>
 
-    <param name="width" type="int" min="800" max="1920" _gui-text="Width">800</param>
-    <param name="height" type="int" min="640" max="1080" _gui-text="Height">640</param>
+    <param name="width" type="string" _gui-text="Width">800</param>
+    <param name="height" type="string" _gui-text="Height">600</param>
 
     <!-- effects exchange both input and output messages -->
     <effect>
