@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-    <_name>Unsplash Placeholder</_name>
+    <_name>Unsplash</_name>
     <id>org.inkscape.unsplash.placeholder</id>
 
     <dependency type="executable" location="extensions">unsplash.py</dependency>
@@ -12,7 +12,7 @@
     <effect>
 		<object-type>all</object-type>
 		<effects-menu>
-			<submenu _name="Unsplash"/>
+			<submenu _name="Add placeholder"/>
 		</effects-menu>
 	</effect>
 

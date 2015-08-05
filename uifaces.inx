@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Add avatar</_name>
+    <id>org.inkscape.unsplash.uifaces</id>
+
+    <dependency type="executable" location="extensions">uifaces.py</dependency>
+
+    <param name="size" type="optiongroup" appearance="minimal" _gui-text="Avatar Size">
+        <_option value="128">128x128px</_option>
+        <_option value="73">73x73px</_option>
+        <_option value="48">48x48px</_option>
+        <_option value="24">24x24px</_option>
+    </param>
+
+    <!-- effects exchange both input and output messages -->
+    <effect>
+		<object-type>all</object-type>
+		<effects-menu>
+			<submenu _name="Add placeholder"/>
+		</effects-menu>
+	</effect>
+
+    <script>
+        <command reldir="extensions" interpreter="python">uifaces.py</command>
+    </script>
+</inkscape-extension>
