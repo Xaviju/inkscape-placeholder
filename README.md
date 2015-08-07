@@ -52,3 +52,6 @@ In linux
 - [Diacritica](https://github.com/diacritica)
 - [Bameda](https://github.com/bameda)
 - [Xaviju](https://github.com/Xaviju)
+
+## How to create your own plugin
+[Inkscape extensions by non developers, for non developers. A primer.](https://medium.com/@xaviju/inkscape-extensions-by-non-developers-for-non-developers-a-primer-b272dda360fe)
