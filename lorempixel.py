@@ -3,6 +3,7 @@
 import base64
 import urllib2
 import inkex
+import ssl
 
 
 class UnsplashPlaceholder(inkex.Effect):
@@ -27,7 +28,8 @@ class UnsplashPlaceholder(inkex.Effect):
             height=self.options.height,
             category=self.options.category
         )
-        response = urllib2.urlopen(url)
+        context = ssl._create_unverified_context()
+        response = urllib2.urlopen(url, context=context)
         data = response.read()
         return data
 
