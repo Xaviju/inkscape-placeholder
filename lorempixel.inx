@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>From Lorempixel</_name>
+    <id>org.inkscape.lorempixel.placeholder</id>
+
+    <dependency type="executable" location="extensions">unsplash.py</dependency>
+
+    <param name="width" type="string" _gui-text="Width">800</param>
+    <param name="height" type="string" _gui-text="Height">600</param>
+    <param name="category" type="optiongroup" appearance="minimal" _gui-text="Select category">
+        <_option value="abstract">Abstract</_option>
+        <_option value="animals">Animals</_option>
+        <_option value="business">Business</_option>
+        <_option value="cats">Cats</_option>
+        <_option value="city">City</_option>
+        <_option value="food">Food</_option>
+        <_option value="nightlife">Nightlife</_option>
+        <_option value="fashion">Fashion</_option>
+        <_option value="people">People</_option>
+        <_option value="nature">Nature</_option>
+        <_option value="sports">Sports</_option>
+        <_option value="technics">Technics</_option>
+        <_option value="transport">Transport</_option>
+    </param>
+
+
+    <!-- effects exchange both input and output messages -->
+    <effect>
+		<object-type>all</object-type>
+		<effects-menu>
+			<submenu _name="Add placeholder"/>
+		</effects-menu>
+	</effect>
+
+    <script>
+        <command reldir="extensions" interpreter="python">lorempixel.py</command>
+    </script>
+</inkscape-extension>

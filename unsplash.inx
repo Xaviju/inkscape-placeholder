@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-    <_name>Unsplash</_name>
+    <_name>From unsplash</_name>
     <id>org.inkscape.unsplash.placeholder</id>
 
     <dependency type="executable" location="extensions">unsplash.py</dependency>
