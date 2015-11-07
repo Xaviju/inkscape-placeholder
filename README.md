@@ -2,6 +2,7 @@
 Embed image placeholders with custom height and width into Inkscape:
 - Beautiful Image backgrounds from [unsplash](https://unsplash.com/)
 - Random User avatars from [uifaces](http://uifaces.com/)
+- Categorized Placeholder Images from [lorempixel](http://lorempixel.com/)
 
 ## How it works
 Find 'Add Placeholder' extension under the _extensions_ menu in the top bar
