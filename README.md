@@ -9,7 +9,7 @@ Find 'Add Placeholder' extension under the _extensions_ menu in the top bar
 
 ### Unsplash: Add a image background from _unsplash_
 
-1. Choose _Unsplash..._
+1. Choose _From Unsplash..._
 
 1. Select the desired image width and height  
 
@@ -30,6 +30,17 @@ Find 'Add Placeholder' extension under the _extensions_ menu in the top bar
 2. Apply and wait a few seconds and a random user avatar will be loaded into your work area
 
 ![](http://i.imgur.com/PQFnBn7.png)
+
+### Add placeholder from Lorempixel and choose image category
+
+ 1. Choose _From Lorempixel..._
+ 2. Select the desired image width and height and choose the category
+ 
+ ![](http://i.imgur.com/tH1Ckpf.png)
+ 
+ 3. Apply and wait a few seconds until an image from the category you selected will be loaded into your work area 
+  
+ ![](http://i.imgur.com/4VI9VGU.png)
 
 
 ## Motivation
