@@ -44,6 +44,14 @@ Find 'Add Placeholder' extension under the _extensions_ menu in the top bar
  ![](http://i.imgur.com/4VI9VGU.png)
 
 
+##Images license
+The images imported by this extension set are intended for use in private mockups only. If you would like to use them for any other purpose, please make sure to double check the image's license:
+- Images from Lorempixel are released under the Creative Commons Attribution Share Alike License (CC-By-SA), which requires you to name the author and to share your work under the same license. Find the image author on [Lorempixel's website](http://lorempixel.com/).
+- Images from [Unsplash](https://unsplash.com/license) are released under the CC-0 License, and can be used for any purpose.
+- Images from [Uifaces](http://uifaces.com/) may only be used for private mockups (no publishing).
+
+As these websites' licensing terms may change any time, we do not assume any liability for the above information. **You should always check the license of images you use in your art and other published works carefully.**
+
 ## Motivation
 
 For designers, it is very useful to add image placeholders to their designs to see how the design could look and how image fits in space.  
