@@ -7,6 +7,13 @@
 
     <param name="width" type="string" _gui-text="Width">800</param>
     <param name="height" type="string" _gui-text="Height">600</param>
+    <param name="orientation" type="optiongroup" gui-text="Image orientation" appearance="minimal">
+       <option value="landscape">Landscape</option>
+       <option value="portrait">Portrait</option>
+       <option value="squarish">Squarish</option>
+    </param>
+    <param name="query" type="string" _gui-text="Image topic"></param>
+
 
     <!-- effects exchange both input and output messages -->
     <effect>
