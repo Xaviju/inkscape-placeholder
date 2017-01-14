@@ -6,19 +6,20 @@ Embed image placeholders with custom height and width into Inkscape:
 
 ## How it works
 Find 'Add Placeholder' extension under the _extensions_ menu in the top bar
+
 ![](http://i.imgur.com/4a4LLEA.png)
 
 ### Unsplash: Add a image background from _unsplash_
 
-1. Choose _From Unsplash..._
+- Choose _From Unsplash..._
 
-1. Select the desired image width and height  
+- Select the desired image width and height  
 
-![http://i.imgur.com/8q845co.png](http://i.imgur.com/8q845co.png)
+![http://i.imgur.com/H4JoIwx.png](http://i.imgur.com/H4JoIwx.png)
 
-2. Apply and wait a few seconds and a beautiful random image will be loaded into your work area  
+- Apply and wait a few seconds and a beautiful random image will be loaded into your work area 
 
-![http://i.imgur.com/xorhIAj.png](http://i.imgur.com/xorhIAj.png)
+![http://i.imgur.com/Fr5lUOs.jpg](http://i.imgur.com/Fr5lUOs.jpg)
 
 ### Add Avatar: Add a user avatar from _uifaces_
 
@@ -36,11 +37,11 @@ Find 'Add Placeholder' extension under the _extensions_ menu in the top bar
 
  1. Choose _From Lorempixel..._
  2. Select the desired image width and height and choose the category
- 
+
  ![](http://i.imgur.com/tH1Ckpf.png)
- 
- 3. Apply and wait a few seconds until an image from the category you selected will be loaded into your work area 
-  
+
+ 3. Apply and wait a few seconds until an image from the category you selected will be loaded into your work area
+
  ![](http://i.imgur.com/4VI9VGU.png)
 
 
