@@ -29,7 +29,7 @@ class AdorablePlaceholder(inkex.Effect):
 
 
     def _get_avatar(self):
-        url = 'https://api.adorable.io/avatars/{size}/{name}@adorable.io.png'.format(
+        url = 'https://api.adorable.io/avatars/{size}/{name}'.format(
             size=self.options.size,
             name=self.options.name
         )

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-    <_name>Add avatar</_name>
+    <_name>Add adorable</_name>
     <id>org.inkscape.placeholder.adorable</id>
 
     <dependency type="executable" location="extensions">adorable.py</dependency>
 
     <param name="size" type="int" min="40" max="285" gui-text="Avatar size" appearance="full">128</param>
     <param name="name" type="string" gui-text="Avatar name">Adorable</param>
-    <param name="name" type="description">Remember: same names will produce the same avatar</param>
+    <param name="name" type="description">Remember: same names will produce the same adorable</param>
 
     <!-- effects exchange both input and output messages -->
     <effect>

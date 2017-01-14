@@ -1,7 +1,7 @@
 ## Inkscape Placeholder
 Embed image placeholders with custom height and width into Inkscape:
 - Beautiful Image backgrounds from [unsplash](https://unsplash.com/)
-- Random User avatars from [uifaces](http://uifaces.com/)
+- Random User avatars from [adorable](http://avatars.adorable.io)
 - Categorized Placeholder Images from [lorempixel](http://lorempixel.com/)
 
 ## How it works
@@ -17,21 +17,21 @@ Find 'Add Placeholder' extension under the _extensions_ menu in the top bar
 
 ![http://i.imgur.com/H4JoIwx.png](http://i.imgur.com/H4JoIwx.png)
 
-- Apply and wait a few seconds and a beautiful random image will be loaded into your work area 
+- Apply and wait a few seconds and a beautiful random image will be loaded into your work area
 
 ![http://i.imgur.com/Fr5lUOs.jpg](http://i.imgur.com/Fr5lUOs.jpg)
 
-### Add Avatar: Add a user avatar from _uifaces_
+### Add Adorable: Add a user avatar from _adorable_
 
-1. Choose _Add avatar..._
+1. Choose _Add adorable..._
 
-2. Choose the desired avatar size from the available in the dropdown
+2. Choose the desired adorable size and the adorable name. Nota that same name will always produce the same adorable.  Random strings will produce random adorables!
 
-![](http://i.imgur.com/wphku2U.png)
+![http://i.imgur.com/kO09MZt.png](http://i.imgur.com/kO09MZt.png)
 
-2. Apply and wait a few seconds and a random user avatar will be loaded into your work area
+2. Apply and wait a few seconds and a random adorable avatar will be loaded into your work area
 
-![](http://i.imgur.com/PQFnBn7.png)
+![http://i.imgur.com/Udf9Oq6.png](http://i.imgur.com/Udf9Oq6.png)
 
 ### Add placeholder from Lorempixel and choose image category
 
