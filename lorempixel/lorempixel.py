@@ -17,21 +17,28 @@ class UnsplashPlaceholder(inkex.Effect):
                                      default='', help='Set image category')
 
     def effect(self):
+        category = self.options.category
+
+        svg = self.document.getroot()
+
+        layer = inkex.etree.SubElement(svg, 'g')
+        layer.set(inkex.addNS('label', 'inkscape'), '%s lorempixel' %(category))
+        layer.set(inkex.addNS('groupmode', 'inkscape'), 'layer')
+
         image = self._get_image()
         node = self._create_image_node(image)
 
-        self.document.getroot().append(node)
+        layer.append(node)
 
     def _get_image(self):
-        url = 'https://lorempixel.com/{width}/{height}/{category}'.format(
+        url = 'http://lorempixel.com/{width}/{height}/{category}'.format(
             width=self.options.width,
             height=self.options.height,
             category=self.options.category
         )
-        context = ssl._create_unverified_context()
-        response = urllib2.urlopen(url, context=context)
-        data = response.read()
-        return data
+        response = urllib2.urlopen(url)
+        image = response.read()
+        return image
 
     def _create_image_node(self, data):
         attribs = {
