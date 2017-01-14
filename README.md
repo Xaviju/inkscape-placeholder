@@ -49,7 +49,7 @@ Find 'Add Placeholder' extension under the _extensions_ menu in the top bar
 The images imported by this extension set are intended for use in private mockups only. If you would like to use them for any other purpose, please make sure to double check the image's license:
 - Images from Lorempixel are released under the Creative Commons Attribution Share Alike License (CC-By-SA), which requires you to name the author and to share your work under the same license. Find the image author on [Lorempixel's website](http://lorempixel.com/).
 - Images from [Unsplash](https://unsplash.com/license) are released under the CC-0 License, and can be used for any purpose.
-- Images from [Uifaces](http://uifaces.com/) may only be used for private mockups (no publishing).
+- Images from [adorable](http://avatars.adorable.io) are released under the terms of the MIT License.
 
 As these websites' licensing terms may change any time, we do not assume any liability for the above information. **You should always check the license of images you use in your art and other published works carefully.**
 
@@ -61,19 +61,10 @@ It is also useful to help clients see a temporary image that could help them und
 ## Installation
 
 Background placehoders: Copy the files `unsplash.py` and `unsplash.inx` into your extensions local directory
-Avatar placehoders: Copy the files `uifaces.py` and `uifaces.inx` into your extensions local directory
+Adorable placehoders: Copy the files `adorable.py` and `adorable.inx` into your extensions local directory
+Lorempixel placehoders: Copy the files `lorempixel.py` and `lorempixel.inx` into your extensions local directory
 In linux
 
 ```
 ~/.config/inkscape/extensions
 ```
-
-## Contributors
-
-- [Diacritica](https://github.com/diacritica)
-- [Bameda](https://github.com/bameda)
-- [Xaviju](https://github.com/Xaviju)
-- [Moini](https://github.com/Moini)
-
-## How to create your own plugin
-[Inkscape extensions by non developers, for non developers. A primer.](https://medium.com/@xaviju/inkscape-extensions-by-non-developers-for-non-developers-a-primer-b272dda360fe)
