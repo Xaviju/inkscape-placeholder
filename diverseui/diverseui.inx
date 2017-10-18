@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>DiverseUI</_name>
+    <id>org.inkscape.placeholder.diverseui</id>
+
+    <dependency type="executable" location="extensions">diverseui.py</dependency>
+
+    <param name="gender" type="optiongroup" gui-text="Gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="">Random</option>
+    </param>
+
+    <!-- effects exchange both input and output messages -->
+    <effect>
+		<object-type>all</object-type>
+		<effects-menu>
+			<submenu _name="Add placeholder"/>
+		</effects-menu>
+	</effect>
+
+    <script>
+        <command reldir="extensions" interpreter="python">diverseui.py</command>
+    </script>
+</inkscape-extension>
